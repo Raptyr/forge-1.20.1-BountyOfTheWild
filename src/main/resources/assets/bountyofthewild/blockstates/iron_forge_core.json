@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "":
+    {
+      "model": "bountyofthewild:block/iron_forge_core"
+    }
+  }
+}

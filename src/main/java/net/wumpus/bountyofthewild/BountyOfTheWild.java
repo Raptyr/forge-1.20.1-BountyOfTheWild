@@ -12,6 +12,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.wumpus.bountyofthewild.block.ModBlocks;
+import net.wumpus.bountyofthewild.item.ModCreativeModeTabs;
 import net.wumpus.bountyofthewild.item.ModItems;
 import org.slf4j.Logger;
 
@@ -26,6 +28,10 @@ public class BountyOfTheWild
     public BountyOfTheWild()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
 
         ModItems.register(modEventBus);
 

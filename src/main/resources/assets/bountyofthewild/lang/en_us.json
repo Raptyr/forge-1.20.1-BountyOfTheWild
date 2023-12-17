@@ -1,3 +1,8 @@
 {
-  "item.bountyofthewild.acorn": "Acorn"
+  "item.bountyofthewild.acorn": "Acorn",
+
+  "block.bountyofthewild.iron_forge_core": "Iron forge core",
+
+  "creativetab.plants_tab": "Natural Components",
+  "creativetab.block_tools_tab": "Industrial Blocks"
 }
