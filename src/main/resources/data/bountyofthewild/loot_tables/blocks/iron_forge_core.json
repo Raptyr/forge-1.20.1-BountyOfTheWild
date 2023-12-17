@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "pools":
+[
+  {
+    "bounus_rolls": 0.0,
+    "conditions":
+            [
+              {
+                "condition": "minecraft:survives_explosion"
+              }
+            ],
+          "entries":
+                  [
+                    {
+                      "type": "minecraft:item",
+                      "name": "bountyofthewild:iron_forge_core"
+                    }
+                  ],
+    "rolls": 1.0
+  }
+],
+  "random_sequence": "bountyofthewild:blocks/iron_forge_core"
+}
